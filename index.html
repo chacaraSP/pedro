@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <style>
     .swiper-slide img {
-      height: 100vh;
+      height: 100px; /* ← altura aumentada aqui */
       width: 100%;
       object-fit: cover;
     }
@@ -17,8 +17,8 @@
 <body class="bg-gray-100 text-gray-800">
 
   <!-- Hero Section com Slides -->
-  <section class="relative h-screen">
-    <div class="swiper heroSwiper h-full">
+  <section class="relative">
+    <div class="swiper heroSwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="parte de cima.jpg" alt="Slide 1" />
@@ -29,13 +29,6 @@
         <div class="swiper-slide">
           <img src="campo.jpg" alt="Slide 3" />
         </div>
-      </div>
-    </div>
-    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center text-center">
-      <div class="px-6">
-        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">Sítio Recanto do Sossego</h1>
-        <p class="text-xl md:text-2xl text-gray-200 mb-8">Descubra o lugar ideal para descanso, lazer e momentos inesquecíveis.</p>
-        <a href="https://wa.me/5511972929155" target="_blank" class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-full text-lg font-semibold shadow-lg transition">Reserve pelo WhatsApp</a>
       </div>
     </div>
   </section>
